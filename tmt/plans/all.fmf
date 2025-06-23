@@ -1,10 +1,7 @@
-summary: Dummy plan to run a simple test
-enabled: true
-
+summary: Run all tests
 discover:
   how: fmf
   directory: ./tests
-
 execute:
   how: tmt
 
